@@ -1,0 +1,39 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	font-family: 'Verdana', sans-serif;
+}
+
+#main-header{
+	background-image: url(../img/man-1.jpg);
+	background-position: center;
+	background-size: auto;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+#main-header .header-caption{
+	text-align: left;
+	color: #fff;
+	bottom: 60%;
+	top: 40%;
+	left: 30px;
+	position: relative;
+}
+
+#main-header .header-caption h1, main-header .header-caption h1{
+	padding: 5px;
+}
+
+#main-header .header-caption h1{
+	font-size: 1.6em;
+}
+
+#main-header .header-caption h2{
+	font-size: 2.5em;
+}
